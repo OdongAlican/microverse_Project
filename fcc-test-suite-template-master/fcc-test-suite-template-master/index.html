@@ -9,39 +9,27 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <p>
-      Hello World, we are software developers!
-    </p>
-
     <header id="header">
       <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--wgM2o9jA--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://thepracticaldev.s3.amazonaws.com/uploads/organization/profile_image/508/594123f5-8974-414a-a9f1-71c29dd6cf2a.png" id="header-img">
-      <nav id="nav-bar">
-        <button class="nav-link">
-          <a href="#">
-            Home
-          </a>
-        </button>
-        <button class="nav-link">
-         <a href="#">
-            About Us
-         </a> 
-        </button>
-        <button class="nav-link">
-          <a href="#">
-            Contact Us
-          </a>
-        </button>
-      </nav>
-    </header>
-    <div>
+        <nav id="nav-bar">
+             
+              <a href="#header-img" class="nav-link">Home</a>
+              <a href="#video" class="nav-link">About</a>
+              <a href="#form" class="nav-link">Contact</a>
+            
+        </nav>
+      
+     
+      </header>
+      <div id="mid-section">
       <video src="https://www.youtube.com/watch?v=f9ip1iSAptQ" id="video" controls>
         What is Microverse?
       </video>
     </div>
-    <div>
-      <form id="form">
-        <input id="email" placeholder="Enter your email" type="email">
-        <input type="text" id="submit"  action ="https://www.freecodecamp.com/email-submit">
+    <div id="lower-section">
+      <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+         <input type="email" placeholder="Enter your email" id="email" name="email"><br>
+         <input type="submit" value="Submit" id="submit">
       </form>
     </div>
     <script  src="js/index.js"></script>

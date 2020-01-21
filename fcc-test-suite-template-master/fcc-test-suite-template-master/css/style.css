@@ -1,0 +1,50 @@
+
+ @media (max-width){
+    #video{
+        height: 200px;
+        width: 150px;
+    }
+}
+img{
+    height: 50px;
+    width: 50px;
+    top: 0;
+}
+video{
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+header{
+    display: flex;
+
+}
+
+ nav {
+    position: fixed;
+    width: 100%;
+    top: 8px;
+    margin-left: 55px;
+    
+    background-color: darkgrey;
+    height: 50px;
+    float: right;
+}
+ nav a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    justify-items: center;
+ }
+ form{
+     margin-left: 250px;
+     display: flex;
+     margin-top: 5px;
+ }
+ form #email{
+     border-radius: 2px;
+     height: 30px;
+
+ }
